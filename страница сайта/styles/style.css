@@ -1,0 +1,91 @@
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0%;
+}
+
+body {
+    background-image: url(../images/g-02-patina-maldives-1.webp);
+    background-size: 100vw, 100vh; 
+    background-repeat: no-repeat;
+        font-family: 'Montserrat', sans-serif; 
+        color: #fff;
+        font-style: normal
+}
+
+.header {
+    display: flex;
+    width: 100vw;
+    height: 20vh;
+}
+
+.allmenu {
+    display: flex;
+    list-style-type: none;
+    width: 40vw;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.logo {
+    display: flex;
+    width: 50%;
+    padding-left: 15vw;
+}
+
+.logotext {
+    background-color: #E0B973;
+    padding: 20px;
+    text-align: center;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    height: 15vh;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.title {
+    height: 50vh;
+    width: 100vh;
+    margin-left: 70px;
+    padding-top: 40px;
+}
+
+
+.word {
+    font-size: 60px;
+}
+
+.footer{
+    display: flex;
+    height: 30vh;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section {
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+.section.first {
+    background-color: #E0B973;
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+
+.section.third :hover {
+    transform: scale(1.3);
+}
